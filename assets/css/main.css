@@ -1,0 +1,39 @@
+body 
+{
+    overflow:hidden;
+}	
+#stars { 
+background:white;
+width:100%;
+-webkit-transition: all 0.4s ease-in-out;
+-moz-transition: all 0.4s ease-in-out;
+-ms-transition: all 0.4s ease-in-out;
+-o-transition: all 0.4s ease-in-out;
+transition: all 0.4s ease-in-out;
+}
+#stars:hover { 
+background:white;
+}	
+#logo {
+  display: none;
+}
+canvas {
+  position: absolute;
+}
+ul.menu {
+  text-align: right;
+    font-weight: 100;
+    margin-right: 100px;
+    color: #424242;
+}
+ul.menu li{
+  text-decoration: none;
+  display: inline-block;
+  margin: 60px 30px 0 30px;
+  font-family: "Source Sans Pro", sans-serif;
+  cursor: pointer;
+}
+ul.menu li:hover {
+  border-bottom: 1px solid #424242;
+  transition: 0.5s;
+}
